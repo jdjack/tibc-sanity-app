@@ -35,6 +35,11 @@ export default {
       type: 'string',
     },
     {
+      name: 'video_url',
+      title: 'Video URL',
+      type: 'string',
+    },
+    {
       name: 'gallery',
       title: 'Gallery',
       type: 'array',
@@ -65,6 +70,19 @@ export default {
           { title: "Singapore", value: "Singapore" },
           { title: "Hong Kong", value: "Hong Kong" },
           { title: "London", value: "London" },
+        ],
+      },
+    },
+    {
+      name: "flag",
+      title: "Flag",
+      description: "Pick the flag for the club",
+      type: "string",
+      options: {
+        list: [
+          { title: "🇸🇬", value: "🇸🇬" },
+          { title: "🇭🇰", value: "🇭🇰" },
+          { title: "🇬🇧", value: "🇬🇧" },
         ],
       },
     },
