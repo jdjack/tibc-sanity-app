@@ -30,13 +30,13 @@ export default {
     },
     {
       name: 'number_of_redemptions',
-      title: 'Number of Redemptions',
+      title: 'Number of Redemptions (NO LONGER USED, BUT STILL REQUIRED)',
       description: 'How many times this reward can be redeemed (e.g. 30 times for monthly coffee)',
       type: 'number',
     },
     {
       name: 'days_to_expire',
-      title: 'Days to Expire',
+      title: 'Days to Expire (NO LONGER USED, BUT STILL REQUIRED)',
       description: 'How many days this reward is valid for (e.g. 30 days for monthly coffee)',
       type: 'number',
     },

@@ -18,10 +18,11 @@ export default defineConfig({
         .title('Content')
         .items([
           ...S.documentTypeListItems().filter(
-            (item) => item.getId() !== 'announcement' // Exclude 'announcement'
+            (item) => item.getId() !== 'announcement' && item.getId() !== 'offers' // Exclude 'announcement' and 'offers'
           ),
           // Minimum required configuration
           orderableDocumentListDeskItem({ type: 'announcement', S, context }),
+          orderableDocumentListDeskItem({ type: 'offers', S, context }),
         ])
     },
   }), visionTool()],

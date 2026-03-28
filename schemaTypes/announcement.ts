@@ -60,6 +60,8 @@ export default {
         list: [
           { title: "Singapore", value: "40863" },
           { title: "Hong Kong", value: "46798" },
+          { title: "Indonesia", value: "126071" },
+          { title: "Thailand", value: "144788" },
         ],
         layout: "grid",
       },
