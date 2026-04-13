@@ -48,5 +48,37 @@ export default {
         hotspot: true,
       },
     },
+    {
+      name: 'sub_rewards',
+      title: 'Sub-Rewards',
+      type: 'array',
+      of: [
+        {
+          type: 'object',
+          fields: [
+            {
+              name: 'name',
+              title: 'Name',
+              type: 'string',
+            },
+            {
+              name: 'description',
+              title: 'Description',
+              type: 'text',
+            },
+            {
+              name: 'group_name',
+              title: 'Group Name',
+              type: 'string',
+            },
+            {
+              name: 'quantity',
+              title: 'Quantity',
+              type: 'number',
+            },
+          ],
+        },
+      ],
+    },
   ]
 }
