@@ -69,6 +69,8 @@ export default {
         list: [
           { title: "Singapore", value: "Singapore" },
           { title: "Hong Kong", value: "Hong Kong" },
+          { title: "Thailand", value: "Thailand" },
+          { title: "Indonesia", value: "Indonesia" },
           { title: "London", value: "London" },
         ],
       },
@@ -82,6 +84,8 @@ export default {
         list: [
           { title: "🇸🇬", value: "🇸🇬" },
           { title: "🇭🇰", value: "🇭🇰" },
+          { title: "🇹🇭", value: "🇹🇭" },
+          { title: "🇮🇩", value: "🇮🇩" },
           { title: "🇬🇧", value: "🇬🇧" },
         ],
       },
@@ -95,6 +99,8 @@ export default {
         list: [
           { title: "Asia/Singapore", value: "Asia/Singapore" },
           { title: "Asia/Hong_Kong", value: "Asia/Hong_Kong" },
+          { title: "Asia/Bangkok", value: "Asia/Bangkok" },
+          { title: "Asia/Jakarta", value: "Asia/Jakarta" },
           { title: "Europe/London", value: "Europe/London" },
         ],
       },
