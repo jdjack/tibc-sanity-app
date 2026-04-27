@@ -9,22 +9,22 @@ export default {
     orderRankField({ type: "offers" }),
     {
       name: 'name',
-      title: 'Name',
+      title: 'Business Name',
       type: 'string',
     },
     {
       name: 'description',
-      title: 'Description',
+      title: 'Offer Description',
       type: 'text',
     },
     {
       name: 'promo_note',
-      title: 'Promo Note',
+      title: 'Promo Tag (Always ALL CAPS)',
       type: 'string',
     },
     {
       name: 'how_to_redeem',
-      title: 'How to Redeem',
+      title: 'Subtitle',
       type: 'string',
     },
     {
@@ -39,12 +39,12 @@ export default {
     },
     {
       name: 'tall_image',
-      title: 'Tall Image',
+      title: 'Tall Image (Priority)',
       type: 'image',
     },
     {
       name: 'wide_image',
-      title: 'Wide Image',
+      title: 'Wide Image (Required if Featured)',
       type: 'image',
     },
     {
