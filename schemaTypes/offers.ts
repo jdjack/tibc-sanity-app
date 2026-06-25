@@ -23,6 +23,11 @@ export default {
       type: 'string',
     },
     {
+      name: 'promo_code',
+      title: 'Promo Code (If applicable)',
+      type: 'string',
+    },
+    {
       name: 'how_to_redeem',
       title: 'Subtitle',
       type: 'string',

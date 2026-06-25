@@ -18,11 +18,12 @@ export default defineConfig({
         .title('Content')
         .items([
           ...S.documentTypeListItems().filter(
-            (item) => item.getId() !== 'announcement' && item.getId() !== 'offers' // Exclude 'announcement' and 'offers'
+            (item) => item.getId() !== 'announcement' && item.getId() !== 'offers' && item.getId() !== 'mobile_banner' // Exclude 'announcement', 'offers', and 'mobile_banner'
           ),
           // Minimum required configuration
           orderableDocumentListDeskItem({ type: 'announcement', S, context }),
           orderableDocumentListDeskItem({ type: 'offers', S, context }),
+          orderableDocumentListDeskItem({ type: 'mobile_banner', S, context }),
         ])
     },
   }), visionTool()],
